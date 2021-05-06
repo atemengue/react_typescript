@@ -12,7 +12,7 @@ const UserSearch: React.FC = () => {
 
   const onClick = () => { 
     const foundUser = users.find(user => {
-      return user.name == name
+      return user.name === name
     })
 
    setUser(foundUser)
